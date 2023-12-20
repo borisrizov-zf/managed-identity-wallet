@@ -17,7 +17,7 @@
     [
       "@semantic-release/exec",
       {
-        "verifyReleaseCmd": "echo will_create_new_version=$([[ ${lastRelease.version} = ${nextRelease.version} ]] && echo false || echo true) >> $GITHUB_ENV"
+        "verifyReleaseCmd": "echo will_create_new_version=$([ ${lastRelease.version} = ${nextRelease.version} ] && echo false || echo true) >> $GITHUB_ENV"
       }
     ],
     [
