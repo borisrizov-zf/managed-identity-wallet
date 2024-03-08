@@ -1,3 +1,52 @@
+# [0.4.0-develop.9](https://github.com/borisrizov-zf/managed-identity-wallet/compare/v0.4.0-develop.8...v0.4.0-develop.9) (2024-03-08)
+
+
+### Bug Fixes
+
+* add a comment to the expiryInstant ([21ac648](https://github.com/borisrizov-zf/managed-identity-wallet/commit/21ac64813d31d031766cbf3cb6efd8bfc6bcb670))
+* add if statement for creating VC ([0092728](https://github.com/borisrizov-zf/managed-identity-wallet/commit/00927284a50041f210bb66896c9688b89cf8ff49))
+* Add missing gradle validation PR [#257](https://github.com/borisrizov-zf/managed-identity-wallet/issues/257) ([f9acf55](https://github.com/borisrizov-zf/managed-identity-wallet/commit/f9acf55fd7998895f463225eb6a8ed8a621d734b))
+* add missing JSON properties ([5330f64](https://github.com/borisrizov-zf/managed-identity-wallet/commit/5330f64dd51669d4bfd337a656c6151512ad915a))
+* **ci:** update node version to 20 ([263e88b](https://github.com/borisrizov-zf/managed-identity-wallet/commit/263e88b07e6e9bd3846ea8a37e6e8a2c8ede3b04))
+* DAST scan PR [#256](https://github.com/borisrizov-zf/managed-identity-wallet/issues/256) ([1c1f1fb](https://github.com/borisrizov-zf/managed-identity-wallet/commit/1c1f1fb3eacf0e34887ec78acdc4f51464c3f4de))
+* fix bug with token re-wrapping ([e047550](https://github.com/borisrizov-zf/managed-identity-wallet/commit/e04755016aecdf6d6ade0eebae065f36ce80d429))
+* fix integration test ([d8084ee](https://github.com/borisrizov-zf/managed-identity-wallet/commit/d8084eee8a4b562ce1242af1689791963b277783))
+* **helm:** minor fixes ([49b5530](https://github.com/borisrizov-zf/managed-identity-wallet/commit/49b553096fa621429e0df916f61d0e311c7f840a))
+* **helm:** vc expiration date ([e056108](https://github.com/borisrizov-zf/managed-identity-wallet/commit/e056108ed84ae016b3ad348580d4d6d5de7b6322))
+* possible caching vulnerability in action ([eb2e38f](https://github.com/borisrizov-zf/managed-identity-wallet/commit/eb2e38f6c6650491fcc81b70d1cf6f6fc5a0886f))
+* **release:** add missing author, committer emails ([6d49d27](https://github.com/borisrizov-zf/managed-identity-wallet/commit/6d49d272b74b1d43cf48584492215f44b90f1bcf))
+* **release:** use correct syntax for github actor ([86976a6](https://github.com/borisrizov-zf/managed-identity-wallet/commit/86976a6e51c828b723722b730dda19547434cffe))
+* **validation:** credential signer must be equal issuer ([12abe09](https://github.com/borisrizov-zf/managed-identity-wallet/commit/12abe0993fab42cc01fa673ea4b01b9773004636))
+
+
+### Features
+
+* add api docs, option asJwt ([9dc628b](https://github.com/borisrizov-zf/managed-identity-wallet/commit/9dc628b3ff4812759e9762f984f0406073191e40))
+* add domain objects needed by sts infrastructure ([effb480](https://github.com/borisrizov-zf/managed-identity-wallet/commit/effb4801b8788c9221f6a64b4a71c990d05f3a64))
+* add dto objects for sts infrastructure ([103e7f2](https://github.com/borisrizov-zf/managed-identity-wallet/commit/103e7f2100b2613a5ab82038795c9d8f3bf06d02))
+* add exceptions for sts infrastructure ([b4bb9b7](https://github.com/borisrizov-zf/managed-identity-wallet/commit/b4bb9b78be41c721e968e1a350bd22920467b8fe))
+* add ignoring version ([1785080](https://github.com/borisrizov-zf/managed-identity-wallet/commit/1785080a7f3585ecf6fcb89cd94d91701c4906b9))
+* add JWT verification and extend tests ([d83ce91](https://github.com/borisrizov-zf/managed-identity-wallet/commit/d83ce91b2e04b131ef3a83983bbd79331be6cac9))
+* add JWT verification and extend tests ([5ae223d](https://github.com/borisrizov-zf/managed-identity-wallet/commit/5ae223d61f23e71bf426d36ea3255f508abd254b))
+* add logging of auth failures ([ec60117](https://github.com/borisrizov-zf/managed-identity-wallet/commit/ec60117e68e7e139afb1f1f24179237bae03762c))
+* add logic regarding jti info store and check ([6809578](https://github.com/borisrizov-zf/managed-identity-wallet/commit/6809578d208bc0380fa8a34bf119227e12ea1ecd))
+* add missing relationships to entities ([56a48eb](https://github.com/borisrizov-zf/managed-identity-wallet/commit/56a48eb6b4eb8a6a451512d772bf4298fce8f4f4))
+* add service method, controller, config for scope matching ([4feebd4](https://github.com/borisrizov-zf/managed-identity-wallet/commit/4feebd40dabe45e94f73cafcec410c2e51016758))
+* add sts properties ([018d9c0](https://github.com/borisrizov-zf/managed-identity-wallet/commit/018d9c03430ecb15a73e753837a7a838eb7cca81))
+* add token endpoint happy-path test ([d6c30bf](https://github.com/borisrizov-zf/managed-identity-wallet/commit/d6c30bff5cec4f31498c512ecf06ed8237741d30))
+* adding draft for integration test, refactoring ([ce75056](https://github.com/borisrizov-zf/managed-identity-wallet/commit/ce75056a475ce39970de998376a91dcdc95e4065))
+* **chart:** add extra volume/-mounts ([0f6252f](https://github.com/borisrizov-zf/managed-identity-wallet/commit/0f6252f8900ba4a5e7b5f6fa2e531274df615a31))
+* create initial class ([061faa7](https://github.com/borisrizov-zf/managed-identity-wallet/commit/061faa72591550d3a7a93cd2e492aaf8ace82ec2))
+* create initial classes with validation ([fc5db81](https://github.com/borisrizov-zf/managed-identity-wallet/commit/fc5db81092991da9686aa7f7855d30ae4f4e2e83))
+* extend 'miw.security' properties ([e982919](https://github.com/borisrizov-zf/managed-identity-wallet/commit/e9829195245780605a97e1cee5d22439c2f44c64))
+* **helm:** add networkPolicy for miw ([502b633](https://github.com/borisrizov-zf/managed-identity-wallet/commit/502b633c0ff4f533f36b96a0f10b2eaa5f9e1954))
+* **helm:** allow networkPolicy to template values ([acddcff](https://github.com/borisrizov-zf/managed-identity-wallet/commit/acddcffc73e87b9eb9f7b752ca508b8a50058c5d))
+* implement token endpoint ([4227f3e](https://github.com/borisrizov-zf/managed-identity-wallet/commit/4227f3e2d147f71de84e4db6c0540e1e60849078))
+* improve filter, add exception handling ([579a5ec](https://github.com/borisrizov-zf/managed-identity-wallet/commit/579a5ec547d486f04fca4336545cd9f5bb0dc216))
+* Merge PR [#252](https://github.com/borisrizov-zf/managed-identity-wallet/issues/252) ([8cb132b](https://github.com/borisrizov-zf/managed-identity-wallet/commit/8cb132b035a60e7137e536a3a451ce314253ff7b))
+* Merge PR [#255](https://github.com/borisrizov-zf/managed-identity-wallet/issues/255) ([a0d9bdf](https://github.com/borisrizov-zf/managed-identity-wallet/commit/a0d9bdfd1246c684156795523d64210fd828925f))
+* use a spring validator for SecureTokenRequest ([accc0d2](https://github.com/borisrizov-zf/managed-identity-wallet/commit/accc0d20404852035876cb7cb4ce5ce7b5da6e64))
+
 # [0.5.0-develop.9](https://github.com/eclipse-tractusx/managed-identity-wallet/compare/v0.5.0-develop.8...v0.5.0-develop.9) (2024-03-08)
 
 
